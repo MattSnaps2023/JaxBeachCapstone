@@ -342,3 +342,30 @@ flex-direction:column;
 .essay-intro .essay-block{
   margin:40px auto;
 }
+/* YOUTUBE HERO VIDEO */
+.hero-video{
+position:absolute;
+top:0;
+left:0;
+width:100%;
+height:100%;
+object-fit:cover;
+border:none;
+pointer-events:none;
+}
+
+/* REGULAR YOUTUBE VIDEOS */
+.youtube-video{
+position:relative;
+width:100%;
+max-width:800px;
+margin:0 auto;
+aspect-ratio:16/9;
+}
+
+.youtube-video iframe{
+width:100%;
+height:100%;
+border:none;
+border-radius:10px;
+}
